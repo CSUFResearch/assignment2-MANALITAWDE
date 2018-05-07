@@ -5,7 +5,7 @@ ALL = addNumbers
 
 all: $(ALL)
 
-addNumbers: addNumbers.cpp Makefile
+addNumbers: addNumbers.cpp testAdd.cpp Makefile
 	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
 
 clean:

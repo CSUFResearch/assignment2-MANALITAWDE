@@ -17,6 +17,7 @@ install:
 script:
   - make
   - ./addNumbers
+  - ./testAdd
   
 before_install:
 - openssl enc -aes-256-cbc -d -in addNumbers.cpp.enc -out addNumbers.cpp -base64 -K $encrypted_d1234_key -iv $encrypted_d1234_iv
