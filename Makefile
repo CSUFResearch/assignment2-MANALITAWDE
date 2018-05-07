@@ -1,7 +1,7 @@
 
 CXXFLAGS = -g -Wall -Wfatal-errors -std=c++14
 
-ALL = addNumbers
+ALL = addNumbers testAdd
 
 all: $(ALL)
 
